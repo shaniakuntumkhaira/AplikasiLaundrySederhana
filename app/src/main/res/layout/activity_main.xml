@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Laundry Sederhana"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Membership" />
+
+        <RadioButton
+            android:id="@+id/rbNonMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non Membership"
+            android:checked="true" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvHargaPerKilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga per kilo : Rp 5000" />
+
+    <TextView
+        android:id="@+id/tvJumlahPerKilo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Barang per Kg : "
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etJumlahPerKilo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Selimut" />
+
+    <TextView
+        android:id="@+id/tvJumlahPerKilo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Barang per Kg : "
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etJumlahPerKilo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Pakaian biasa" />
+
+    <TextView
+        android:id="@+id/tvJumlahPerKilo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Barang per Kg : "
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etJumlahPerKilo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Boneka" />
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses" />
+
+    <TextView
+        android:id="@+id/tvReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receipt"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
