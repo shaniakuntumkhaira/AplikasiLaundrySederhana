@@ -13,8 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Aplikasi Laundry Sederhana"
-include(":app")
-include(":app")
+rootProject.name = "Aplikasi Minuman"
 include(":app")
  

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_title_chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Chocolate"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/holo_purple"/>
+
+    <Button
+        android:id="@+id/btn_milo_lava_crunchy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milo Lava Crunchy"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_ovaltine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ovaltine"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_choco_hazelnut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choco Hazelnut"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_chocolate_belgian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chocolate Belgian"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_chocolate_original"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chocolate Original"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/listview_chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+</LinearLayout>

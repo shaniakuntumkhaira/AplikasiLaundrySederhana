@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_title_fruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Fruit"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/holo_purple"/>
+
+    <Button
+        android:id="@+id/btn_virginia_berry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Virginia Berry"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_strawberry_milk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strawberry Milk"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_avocado_smoothies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avocado Smoothies"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_lychee_soda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lychee Soda"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_lemon_tea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lemon Tea"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/listview_fruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+</LinearLayout>

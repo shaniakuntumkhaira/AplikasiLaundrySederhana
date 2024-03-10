@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_title_coffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Coffee"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/holo_purple"/>
+
+    <Button
+        android:id="@+id/btn_coffee_caramel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffee Caramel"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_coffee_cookies_cream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffee Cookies and Cream"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_coffee_hazelnut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffee Hazelnut"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_coffee_tiramisu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffee Tiramisu"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_coffee_es_kopi_susu_pandan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Es Kopi Susu Pandan"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+
+    <ListView
+        android:id="@+id/listview_coffee"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+</LinearLayout>

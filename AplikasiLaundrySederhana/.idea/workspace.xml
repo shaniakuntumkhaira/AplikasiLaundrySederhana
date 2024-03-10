@@ -16,7 +16,59 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ea6182a-a492-499c-aad4-0570395c143e" name="Changes" comment="" />
+    <list default="true" id="4ea6182a-a492-499c-aad4-0570395c143e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/androidTest/java/com/shania/aplikasiminuman/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/java/com/shania/aplikasiminuman/ChocolateActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/java/com/shania/aplikasiminuman/CoffeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/java/com/shania/aplikasiminuman/Detail2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/java/com/shania/aplikasiminuman/DetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/java/com/shania/aplikasiminuman/FruitActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/java/com/shania/aplikasiminuman/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/layout/activity_chocolate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/layout/activity_coffe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/layout/activity_detail2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/layout/activity_fruit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/app/src/test/java/com/shania/aplikasiminuman/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplikasi Minuman/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +82,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -46,7 +101,8 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "W:/Pemrograman Bergerak - Shania"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "W:/CodingJavaAsli"
   }
 }]]></component>
   <component name="RunManager">
